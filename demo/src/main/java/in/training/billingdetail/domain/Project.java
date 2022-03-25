@@ -1,4 +1,4 @@
-+package in.training.billingdetail.domain;
+package in.training.billingdetail.domain;
 
 import java.util.Date;
 
