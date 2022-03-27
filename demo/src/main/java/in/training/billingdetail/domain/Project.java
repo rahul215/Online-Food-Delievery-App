@@ -9,4 +9,5 @@ public class Project {
 	private double totalCost;
 	private OrderDetails order;
 	
+	
 }
