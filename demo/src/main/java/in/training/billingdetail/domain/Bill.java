@@ -2,14 +2,14 @@ package in.training.billingdetail.domain;
 
 import java.time.*;
 
-public class Project {
+public class Bill {
 	private String billId;
 	LocalDateTime billDate = LocalDateTime.now();
 	private int totalItem;
 	private double totalCost;
 	//private OrderDetails order;
 	
-	public Project(String billId, int totalItem, double totalCost) {
+	public Bill(String billId, int totalItem, double totalCost) {
 		super();
 		this.billId = billId;
 		this.totalItem = totalItem;
