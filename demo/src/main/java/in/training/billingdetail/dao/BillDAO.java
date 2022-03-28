@@ -6,7 +6,7 @@ import java.util.List;
 import in.training.billingdetail.domain.Bill;
 import in.training.billingdetail.exception.OrderDetailNotFoundException;
 
-public interface ProjectDAO {
+public interface BillDAO {
 	
 	void addBill(Bill bill);
 	
