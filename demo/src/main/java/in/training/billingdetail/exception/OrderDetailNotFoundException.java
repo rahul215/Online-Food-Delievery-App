@@ -1,6 +1,6 @@
 package in.training.billingdetail.exception;
 
-public class OrderDetailNotFoundException {
+public class OrderDetailNotFoundException extends Exception{
 	
 	private static final long serialVersionUID=1L;
 

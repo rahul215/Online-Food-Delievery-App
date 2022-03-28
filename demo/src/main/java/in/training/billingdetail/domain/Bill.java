@@ -9,6 +9,8 @@ public class Bill {
 	private double totalCost;
 	//private OrderDetails order;
 	
+	public Bill() {}
+	
 	public Bill(String billId, int totalItem, double totalCost) {
 		super();
 		this.billId = billId;
