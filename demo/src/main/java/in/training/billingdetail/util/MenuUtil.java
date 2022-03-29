@@ -1,13 +1,17 @@
 package in.training.billingdetail.util;
 
+import java.util.Scanner;
+
 import in.training.billingdetail.domain.Bill;
+import in.training.billingdetail.service.BillService;
+import in.training.billingdetail.serviceimpl.BillServiceImpl;
 
 public class MenuUtil {
 
-	private TrainingService trainingService;
+	private BillService billService;
 
     public MenuUtil() {
-        trainingService =new TrainingServiceImpl();
+        billService =new BillServiceImpl();
     }
     public void start() {
         int menuChoice;
@@ -20,15 +24,15 @@ public class MenuUtil {
         sc.nextLine();
         switch(menuChoice) {
         case 1:
-            Bill training=new Bill();
+            Bill bill=new Bill();
             System.out.println("Enter Training Name : ");
-             training.setTrainingName(sc.nextLine());
+            bill.setTrainingName(sc.nextLine());
              
             System.out.println("Enter Training Description : ");
-             training.setDescription(sc.nextLine());
+            bill.setDescription(sc.nextLine());
 
 
-             trainingService.createTraining( training);
+             billService.createBill(bill);
             System.out.println("Success! Training Created..");
             break;
         case 2:

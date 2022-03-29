@@ -6,16 +6,12 @@ public class OrderDetail {
 	Foodcart cart;
 	
 	public OrderDetail () {}
-	
-	
 
 	public OrderDetail(int orderId, Foodcart cart) {
 		super();
 		this.orderId = orderId;
 		this.cart = cart;
 	}
-
-
 
 	public int getOrderId() {
 		return orderId;
