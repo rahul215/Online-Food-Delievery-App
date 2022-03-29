@@ -12,7 +12,7 @@ public interface BillDAO {
 	
 	void updateBill(Bill bill);
 	
-	void removeBill(Bill bill);
+	void removeBill(Bill bill) throws OrderDetailNotFoundException;
 	
 	void viewBill(Bill bill);
 	

@@ -7,15 +7,16 @@ public class Bill {
 	LocalDateTime billDate = LocalDateTime.now();
 	private int totalItem;
 	private double totalCost;
-	//private OrderDetails order;
+	private OrderDetail order;
 	
 	public Bill() {}
 	
-	public Bill(String billId, int totalItem, double totalCost) {
+	public Bill(String billId, int totalItem, double totalCost, OrderDetail orderDetail) {
 		super();
 		this.billId = billId;
 		this.totalItem = totalItem;
 		this.totalCost = totalCost;
+		this.order = orderDetail;
 	}
 
 	public String getBillId() {
@@ -49,7 +50,15 @@ public class Bill {
 	public void setTotalCost(double totalCost) {
 		this.totalCost = totalCost;
 	}
-	 
+
+	public OrderDetail getOrder() {
+		return order;
+	}
+
+	public void setOrder(OrderDetail order) {
+		this.order = order;
+	}
+	
 	
 	
 }
