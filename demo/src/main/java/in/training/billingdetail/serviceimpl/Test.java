@@ -24,6 +24,7 @@ public class Test {
 		bill.setTotalItem(4);
 		im.addBill(bill);
 		
+		
 	}
 
 }
