@@ -83,6 +83,7 @@ public class MenuUtil {
         System.out.println("3. Update Training");
         System.out.println("4. Delete Training");
         
+        
     }
 	
 }
