@@ -23,6 +23,7 @@ public class Test {
 		bill.setTotalCost(100);
 		bill.setTotalItem(4);
 		im.addBill(bill);
+		
 	}
 
 }
