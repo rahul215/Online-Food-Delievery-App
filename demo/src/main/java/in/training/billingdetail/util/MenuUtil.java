@@ -77,11 +77,11 @@ public class MenuUtil {
 
     }
     private void showMenu() {
-        System.out.println("-------TRAINING TRACKER APP (TRAINING MANAGEMENT TOOL)---------");
-        System.out.println("1. Create Training");
-        System.out.println("2. list Training");
-        System.out.println("3. Update Training");
-        System.out.println("4. Delete Training");
+        System.out.println("-------FOOD DELIEVERY APP---------");
+        System.out.println("1. Create Bill");
+        System.out.println("2. list Bill");
+        System.out.println("3. Update Bill");
+        System.out.println("4. Delete Bill");
         
         
     }
