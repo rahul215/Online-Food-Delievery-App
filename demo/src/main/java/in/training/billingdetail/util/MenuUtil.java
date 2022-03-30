@@ -83,7 +83,6 @@ public class MenuUtil {
         System.out.println("3. Update Bill");
         System.out.println("4. Delete Bill");
         
-        
     }
 	
 }
