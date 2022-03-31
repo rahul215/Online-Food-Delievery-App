@@ -21,5 +21,5 @@ public interface BillDAO {
 	List<Bill> viewBills(String custId);
 	
 	double calculateTotalCost(Bill bill);
-
+	
 }
